@@ -17,7 +17,6 @@
 
     <body>
 
-
         <nav class="navbar navbar-expand-lg navbar-light bg-branco">
             <div class="container-fluid col-lg-8 col-xs-12">
                 <a class="navbar-brand" href="#"><img src="img/AmanhecerSupremo.png"></a>
@@ -56,9 +55,7 @@
             </div>
         </nav>
 
-
         <!--carrossel!-->
-
         <section id="sliderhome">
             <div id="meuSlider" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -69,11 +66,7 @@
                             <p>Mais de 11 Milhões de Pessoas Já Escolheram alinhadores invisíveis. Solicite uma Consulta! Os Alinhadores são uma Alternativa aos Tratamentos Ortodônticos Tradicionais.</p>
                         </div>
                     </div>
-                    <!--
-                        <div class="carousel-item">
-                            <img src="img/odonto.jpg" class="img-responsive" />
-                        </div>
-                    !-->
+                    
                     <div class="carousel-item">
                         <img src="img/loira94.jpg" class="img-responsive">
                         <div class="carousel-caption banner">
