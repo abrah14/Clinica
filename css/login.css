@@ -1,0 +1,25 @@
+#corpo {
+    background-color: #D3D3D3;
+}
+
+.bg-branco {
+    background-color: white;
+}
+
+.card {
+    margin-top: 4em;
+    padding: 0em 0.5em 0.5em;
+    border-radius: 1em !important;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    align-self: flex-end;
+}

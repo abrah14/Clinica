@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <link rel="shortcut icon" type="imagex/png" href="/img/AmanhecerIcon.ico">
+        <link rel="shortcut icon" type="imagex/png" href="img/AmanhecerIcon.ico">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link href="css/meuCss.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
@@ -50,6 +50,9 @@
                         <li class="nav-item" id="list-nav">
                             <a class="nav-link">Contato</a>
                         </li>
+                        <li class="nav-item" id="list-nav">
+                            <a class="nav-link" href="restrict/login.php">Login</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -73,7 +76,6 @@
                             <h5>Cuidados personalizados para o seu sorriso.</h5>
                         </div>
                     </div>
-                    <div class="carousel-item"><img src="img/doctor.jpg" class="img-responsive"></div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#meuSlider" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -92,69 +94,102 @@
         </section>
 
         <div class="container marketing">
-            <hr class="featurette-divider">
+            <hr class="featurette-divider mb-5">
             <div class="row featurette">
                 <div class="col-md-6 order-md-2">
-                    <h2 class="featurette-heading col-md-8 mg-top">
-                        Oh yeah, it’s that good.
-                        <span class="text-muted">See for yourself.</span>
+                    <h2 class="featurette-heading col-md-8 ">
+                        <span class="text-muted">Sobre nós</span>
                     </h2>
                     <p class="lead">
-                        Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.
+                        Aqui na AMANHECER ODONTOLOGIA, trabalhamos com um objetivo principal: proporcionar o melhor e mais completo acompanhamento da saúde bucal e estética do sorriso de nossos pacientes, sempre com absoluto respeito e comprometimento! E dessa maneira, investimos constantemente em uma estrutura moderna, altamente tecnológica e capacitada para oferecer máximo conforto e comodidade, para que a sua experiência conosco seja ÚNICA!
+                        Dispomos de equipamentos de última geração, instrumentação de ponta e materiais de primeira linha para a conquista dos melhores resultados para o seu sorriso!! Para nós, não basta atingir as suas expectativas!! Trabalhamos sempre para superá-las!!
+                        Venha nos conhecer e desfrute do melhor acompanhamento odontológico que você encontrará em toda a região! Não perca mais tempo e cuide de seu sorriso com quem realmente entende dele!
                     </p>
                 </div>
                 <div class="col-md-5 order-md-1">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#eee"></rect>
-                        <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-                    </svg>
+                        <img class="img-responsive mb-0" src="img/cartaz.jpg">
+                        <title>PRECISA TRATAR SEUS DENTES? AQUI TRATAMOS VOCÊ E SEU SORRISO!</title>
                 </div>
             </div>
             <hr class="featurette-divider">
             <!--feature!-->
-            <div class="row">
+            <div class="row justify-content-center text-center mt-5">
+                <section>
+                    <h4 class="text-center amanhecer mb-5">TRATAMENTOS DA AMANHECER</h4>
+                </section>
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#777"></rect>
-                        <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-                    </svg>
-                    <h2>Heading</h2>
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/alinhador.png">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777"></rect>
+                    <h3 class="text-muted">Alinhadores Invisíveis</h3>
                     <p>
-                        "Some representative placeholder content for the three columns of text below the carousel. This is the first column."
+                        Alinha os dentes de forma mais previsível e confortável.
                     </p>
                     <p>
-                        <a class="btn btn-secondary" href="#">View details »</a>
+                        <a class="btn btn-secondary" href="#">Saiba mais</a>
                     </p>
                 </div>
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#777"></rect>
-                        <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-                    </svg>
-                    <h2>Heading</h2>
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/orto.jpg">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777"></rect>
+                    <h3 class="text-muted">Ortodontia</h3>
                     <p>
-                        "Some representative placeholder content for the three columns of text below the carousel. This is the first column."
+                        Corrige a posição dos dentes e dos ossos maxilares mau posicionados.
                     </p>
                     <p>
-                        <a class="btn btn-secondary" href="#">View details »</a>
+                        <a class="btn btn-secondary" href="#">Saiba mais</a>
                     </p>
                 </div>
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/protese.jpg">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777"></rect>
+                    <h3 class="text-muted">Prótese Fixa</h3>
+                    <p>
+                        Utilizados em substituição aos dentes ausentes que podem ser fixas.
+                    </p>
+                    <p>
+                        <a class="btn btn-secondary" href="#">Saiba mais</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center text-center mt-5">
+                <div class="col-lg-4">
+                        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/implante.jpg">
                         <title>Placeholder</title>
                         <rect width="100%" height="100%" fill="#777"></rect>
-                        <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-                    </svg>
-                    <h2>Heading</h2>
-                    <p>
-                        "Some representative placeholder content for the three columns of text below the carousel. This is the first column."
-                    </p>
-                    <p>
-                        <a class="btn btn-secondary" href="#">View details »</a>
-                    </p>
+                        <h3 class="text-muted">Implante Dentário</h3>
+                        <p>
+                            Recuperação da funcionalidade e estética do sorriso, com naturalidade e harmonia.
+                        </p>
+                        <p>
+                            <a class="btn btn-secondary" href="#">Saiba mais</a>
+                        </p>
+                </div>
+                <div class="col-lg-4">
+                        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/periodo.jpg">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#777"></rect>
+                        <h3 class="text-muted">Periodontia</h3>
+                        <p>
+                            Diagnosticar e tratar problemas e doenças que atingem a gengiva.
+                        </p>
+                        <p>
+                            <a class="btn btn-secondary" href="#">Saiba mais</a>
+                        </p>
+                </div>
+                <div class="col-lg-4">
+                        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/clareamento.jpg">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#777"></rect>
+                        <h3 class="text-muted">Clareamento Dental</h3>
+                        <p>
+                            Promover um upgrade encantador e marcante no visual do sorriso.
+                        </p>
+                        <p>
+                            <a class="btn btn-secondary" href="#">Saiba mais</a>
+                        </p>
                 </div>
             </div>
         </div>
